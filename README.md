@@ -7,7 +7,7 @@
 ## ファイル説明
 
 - `Ch03`：第3章のサンプルデータ
-   - `survey_sample_before.csv`：実習用ファイル
-   - `survey_sample_after.csv`：クリーニング後のファイル
+   - `ch03_before.csv`：実習用ファイル
+   - `ch03_after.csv`：クリーニング後のファイル
       - 実習後、答え合わせ用途でお使いください。
    - `Codebook.pdf`：コードブック
