@@ -11,6 +11,23 @@
    - 実習後、答え合わせ用途でお使いください。
 - `Codebook.pdf`：コードブック
 
+## 使い方
+
+- `read_csv()`関数で読み込んでください。
+   - {tidyverse}パッケージを予め読み込んでおいてください。
+- たとえば、`data`フォルダー内の`ch03_before.csv`を読み込み、`raw_df`と名付けて作業環境に格納する場合、以下のようにコードを入力します。
+
+```r
+library(tidyverse)
+raw_df <- read_csv("data/ch03_before.csv")
+```
+
+- ファイルをダウンロードせず、以下のようにURLから直接読み込むこともできる（インターネット環境が必要）。
+
+```r
+raw_df <- read_csv(url("https://github.com/JaehyunSong/r4ss-dataset/raw/refs/heads/main/Ch03/ch03_before.csv"))
+```
+
 ## コードブック（簡易版）
 
 ### `F1`〜`F7`：回答者の社会経済要因変数

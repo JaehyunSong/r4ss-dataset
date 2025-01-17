@@ -12,3 +12,9 @@
 ```r
 load("data/ch02.RData")
 ```
+
+- ファイルをダウンロードせず、以下のようにURLから直接読み込むこともできる（インターネット環境が必要）。
+
+```r
+load(url("https://github.com/JaehyunSong/r4ss-dataset/raw/refs/heads/main/Ch02/ch02.RData"))
+```
